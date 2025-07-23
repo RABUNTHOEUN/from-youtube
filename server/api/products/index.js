@@ -6,7 +6,6 @@ let products = [
 ];
 
 export default defineEventHandler((event) => {
-  
   if (event.method === 'GET') {
     return products;
   }
