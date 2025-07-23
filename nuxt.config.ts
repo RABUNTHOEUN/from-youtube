@@ -10,4 +10,17 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+  app: {
+    head: {
+      title: 'Nuxt 3 Tailwind CSS Example',
+      meta: [
+        { name: 'description', content: 'A Nuxt 3 project with Tailwind CSS' },
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      ],
+      // link: [
+      //   { rel: 'stylesheet', href: 'https://fonts.googleleapis.com/icons?family=Material+Icons' },
+      // ],
+    },
+  }
 })

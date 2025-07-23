@@ -3,6 +3,10 @@ definePageMeta({
   layout: "product", // Set the layout for this page
 });
 
+useHead({
+  title: "Products", // Set the title for the page
+});
+
 const { data: products } = await useFetch("https://fakestoreapi.com/products"); // Fetch all products from the API
 </script>
 

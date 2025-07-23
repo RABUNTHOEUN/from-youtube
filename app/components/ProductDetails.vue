@@ -1,6 +1,20 @@
 <script setup>
 const props = defineProps(["product"]); // Define props to receive product data from parent component
 console.log(props.product); // Log the product data for debugging
+
+useHead({
+  title: props.product?.title || "Product Details", // Set the title for the page based on product title
+  meta: [
+    {
+      name: "description",
+      content: props.product?.description || "Product details page", // Set meta description
+    },
+  ],
+});
+definePageMeta({
+  layout: "product", // Set the layout for this page
+});
+
 </script>
 
 <template>
@@ -22,5 +36,21 @@ console.log(props.product); // Log the product data for debugging
       <img :src="props.product?.image" class="w-300 h-100 object-contain mx-auto p-8" />
       <!-- Display product image -->
     </div>
+    <div class="my-5">
+      <button
+        class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-6 rounded-full transition"
+      >
+        Add to Cart
+      </button>
+      <!-- Add to Cart button -->
+      <button
+        class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-6 rounded-full transition ml-3"
+      >
+        Buy Now
+      </button>
+      <!-- Buy Now button -->   
+    </div>
+
+
   </div>
 </template>
