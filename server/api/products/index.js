@@ -11,4 +11,14 @@ export default defineEventHandler((event) => {
   if (event.method === 'GET') {
     return products;
   }
+  
+  if (event.method === 'POST') {
+    const newProduct = readBody(event);
+    newProduct.id = products.length + 1; // Simple ID generation   
+    products.push(newProduct);
+    return newProduct;
+  }
+  throw createError({ statusCode: 405, statusMessage: 'Method Not Allowed'
+  });
 });
+
