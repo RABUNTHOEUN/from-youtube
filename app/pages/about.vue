@@ -6,7 +6,7 @@ const { data: products } = await useFetch('/api/products') // Fetch about page i
 </script>
 
 <template>
-  <div>
+  <div class="max-w-5xl mx-auto p-4 h-screen">
     <h1 class="text-2xl font-bold mb-4">About Us</h1>
     <p class="text-gray-600 mb-4">Welcome to our about page. Here you can find information about our company and what we do.</p>
     <p class="text-gray-600 mb-4">We are committed to providing the best service possible.</p>

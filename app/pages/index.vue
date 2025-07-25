@@ -5,7 +5,7 @@ useHead({
 </script>
 
 <template>
-  <div>
+  <div class="bg-slate-50 space-y-8 py-8">
     <!-- <HeroSaction /> -->
     <ButtonComponent />
     <AvataComponent />

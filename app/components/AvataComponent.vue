@@ -4,7 +4,7 @@
 </script>
 
 <template>
-    <div class="flex flex-col items-center justify-center my-8">
+    <div class="flex flex-col items-center justify-center ">
         <div class="bg-white p-8 w-2/3 flex flex-col items-center">
             <div class="border-b-1 border-slate-200 w-full">
                 <div class="flex justify-between items-start w-full">
