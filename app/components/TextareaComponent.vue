@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div class="w-full mt-8">
-                <textarea name="#" placeholder="Type your message here" rows="3" id="#" class="border rounded-sm border-slate-300 p-2 w-full">Hello</textarea>
+                <textarea name="#" placeholder="Type your message here" rows="3" id="#" class="border rounded-sm border-slate-300 p-2 w-full"></textarea>
                 <p class="text-slate-500">Your message will be copied to the support team.</p>
             </div>
         </div>
