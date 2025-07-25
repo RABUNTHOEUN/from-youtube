@@ -6,8 +6,9 @@ useHead({
 
 <template>
   <div>
-    <h1>Home Page</h1>
-    <p>This is the main content of the home page.</p>
-    <HeroSaction />
+    <!-- <HeroSaction /> -->
+    <ButtonComponent />
+    <AvataComponent />
+    <AspectComponent />
   </div>
 </template>

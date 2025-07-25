@@ -4,7 +4,7 @@
 
 <template>
     <div>
-        <div class="mx-auto max-w-5xl p-4">
+        <div class="mx-auto max-w-5xl p-4 bg-slate-50">
             <nav class="flex justify-between items-center">
                 <div class="text-lg font-bold">
                     <nuxt-link to="/">Logo</nuxt-link>
