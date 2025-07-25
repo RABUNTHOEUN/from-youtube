@@ -10,5 +10,6 @@ useHead({
     <ButtonComponent />
     <AvataComponent />
     <AspectComponent />
+    <TextareaComponent />
   </div>
 </template>
