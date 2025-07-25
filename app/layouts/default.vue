@@ -16,5 +16,9 @@
         </nav>
         <hr class="mb-4 text-gray-300"/>
         <slot />
+        <hr class="mt-4 text-gray-300"/>
+        <footer class="mt-8 text-center text-gray-600">
+            &copy; 2023 THOEUN. All rights reserved.
+        </footer>
     </div>
 </template>

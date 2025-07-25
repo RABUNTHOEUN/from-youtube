@@ -15,7 +15,7 @@
                     <p class="text-slate-600 py-4 mb-10">Displays a button or a component that looks like a button.</p>
                 </div>
             </div>
-            <p class="mt-8 w-full h-[250px] rounded-md bg-slate-900 text-white flex justify-center items-center">B</p>
+            <img src="../assets/images/1.jpg" class="mt-8 w-full aspect-video rounded-md object-cover flex justify-center items-center" alt="img">
         </div>
     </div>
 </template>
