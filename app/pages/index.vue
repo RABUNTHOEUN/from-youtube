@@ -11,5 +11,7 @@ useHead({
     <AvataComponent />
     <AspectComponent />
     <TextareaComponent />
+    <ProductCard />
+    <CodeBlockComponent />
   </div>
 </template>

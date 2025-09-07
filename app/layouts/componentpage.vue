@@ -12,8 +12,7 @@
                     </div>
                     <ul class="flex space-x-4">
                         <li><NuxtLink class="hover:underline hover:text-slate-400" to="/">Home</NuxtLink></li>
-                        <!-- <li><NuxtLink class="hover:underline hover:text-slate-400" to="/products">Products</NuxtLink></li> -->
-                        <li><NuxtLink class="hover:underline hover:text-slate-400" to="/componentpages">Components</NuxtLink></li>
+                        <li><NuxtLink class="hover:underline hover:text-slate-400" to="/products">Products</NuxtLink></li>
                         <li><NuxtLink class="hover:underline hover:text-slate-400" to="/about">About</NuxtLink></li>
                     </ul>
                 </nav>

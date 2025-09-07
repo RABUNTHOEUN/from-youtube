@@ -1,6 +1,6 @@
 <script setup>
 definePageMeta({
-  layout: "componentpage", // Set the layout for this page
+  layout: "product", // Set the layout for this page
 });
 
 useHead({
